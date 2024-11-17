@@ -1,0 +1,33 @@
+{
+  "parent": "jjj:fupeng",
+  "criteria": {
+    "killed_warden": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "击杀一只循声守卫"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "title": {
+      "translate": "没实力"
+    }
+  },
+  "sends_telemetry_event": true,
+  "frame":"challenge"
+}
