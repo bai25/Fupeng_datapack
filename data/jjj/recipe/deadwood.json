@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dewood",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " a ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:dead_bush",
+    "count": 1
+  }
+}

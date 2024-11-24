@@ -26,8 +26,11 @@
     },
     "title": {
       "translate": "没实力"
-    }
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
   },
-  "sends_telemetry_event": true,
-  "frame":"challenge"
+  "sends_telemetry_event": true
 }
